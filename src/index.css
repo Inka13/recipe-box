@@ -18,14 +18,14 @@ img {
   width: 50%;
   min-height: 97vh;
   margin-left: 40%;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-family: 'Annie Use Your Telescope', cursive;
 
 }
 h1 {
   text-align: center;
   font-family: 'Allura', cursive;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 #main, #form {
