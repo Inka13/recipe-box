@@ -27,7 +27,7 @@ class App extends React.Component {
 
   componentDidMount() {
 		var recipes=[];
-		recipes = JSON.parse(localStorage.getItem('recipes', recipes)) || [{'name':'spaggeti', 'ingredients':'tijesto, rajcica, bosiljak'}, {'name': 'sataras', 'ingredients': 'paprika, rajcica, luk, soja sos'}];
+		recipes = JSON.parse(localStorage.getItem('recipes', recipes)) || [{'name':'Spaggeti', 'ingredients':'tijesto, rajcica, bosiljak'}, {'name': 'Sataras', 'ingredients': 'paprika, rajcica, luk, soja sos'}];
 
     this.setState({
       recipes: recipes,
