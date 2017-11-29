@@ -106,7 +106,7 @@ class App extends React.Component {
     if(!this.state.adding && !this.state.editing){
       if(this.state.shown) {
         var listItems=this.state.recipes.map((recipe, i) => {
-          if(i===this.state.index){
+          if(Number(i)===Number(this.state.index)){
             return <p key={i} id={i} onClick={this.show}> {recipe.name}
 						<Recipe id="recipe" index={this.state.index} name={this.state.name} ingredients={this.state.ingredients} edit={this.edit} cancel={this.cancel} deleteRecipe={this.deleteRecipe}>
 						</Recipe>
