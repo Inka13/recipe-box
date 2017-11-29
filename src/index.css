@@ -109,4 +109,10 @@ span {
   width: 90%;
   margin-left: 5%;
   }
+  p {
+    font-size: 1.8rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
 }
